@@ -1,0 +1,6 @@
+batch_id,batch_type,profiles_in_batch,age_mean,credit_amount_mean,duration_mean,good_rate,bad_rate
+batch_1_B001_B050,natural,50,37.98,3491.18,21.46,0.76,0.24
+batch_2_B051_B100,natural,50,38.5,3718.48,23.14,0.74,0.26
+batch_3_B101_B150,natural,50,33.08,3400.5,20.78,0.76,0.24
+batch_4_B151_B200,natural,50,36.94,2779.94,18.68,0.6,0.4
+stress_test_batch_4_shifted_credit_profile,synthetic_stress_test,50,51.6,6949.85,33.624,0.6,0.4

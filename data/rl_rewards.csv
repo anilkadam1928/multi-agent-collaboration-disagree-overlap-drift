@@ -1,0 +1,21 @@
+run_id,borrower_id,kaggle_truth_label,agent_decision,decision_source,reward
+combined_B001,B001,good,approve,Drift RouterManager,1
+combined_B002,B002,bad,approve,Drift RouterManager,-1
+combined_B003,B003,good,approve,Drift RouterManager,1
+combined_B004,B004,good,approve,Drift RouterManager,1
+combined_B005,B005,bad,approve,Drift RouterManager,-1
+combined_B006,B006,good,approve,Drift RouterManager,1
+combined_B007,B007,good,approve,Drift RouterManager,1
+combined_B008,B008,good,approve,Drift RouterManager,1
+combined_B009,B009,good,approve,Drift RouterManager,1
+combined_B010,B010,bad,approve,Drift RouterManager,-1
+combined_B011,B011,bad,approve,Drift RouterManager,-1
+combined_B012,B012,bad,approve,Drift RouterManager,-1
+combined_B013,B013,good,approve,Drift RouterManager,1
+combined_B014,B014,bad,approve,Drift RouterManager,-1
+combined_B015,B015,good,approve,Drift RouterManager,1
+combined_B016,B016,bad,approve,Drift RouterManager,-1
+combined_B017,B017,good,approve,Drift RouterManager,1
+combined_B018,B018,good,approve,Drift RouterManager,1
+combined_B019,B019,bad,approve,Drift RouterManager,-1
+combined_B020,B020,good,approve,Drift RouterManager,1

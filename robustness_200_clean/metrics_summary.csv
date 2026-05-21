@@ -1,0 +1,10 @@
+module,profiles,accuracy,approve_rate,refer_rate,reject_rate,unknown_rate,bad_approval_rate,extra_metric
+Router baseline,200,0.59,0.76,0.23,0.01,0.0,0.614,
+Borda,200,0.585,0.77,0.23,0.0,0.0,0.6491,
+CONSENSAGENT,200,0.61,0.8,0.195,0.005,0.0,0.6842,
+Hierarchy,200,0.585,0.775,0.225,0.0,0.0,0.6667,
+Disagreement,200,,,,,,,disagreement_rate=0.4250
+Position changes,200,,,,,,,avg_changes=0.9150
+Sycophancy,200,,,,,,,avg_flags=0.2800
+Overlap raw,200,,,,,,,avg_redundancy=1.8514
+Overlap with LCE estimate,200,,,,,,,avg_redundancy=1.3550

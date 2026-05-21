@@ -1,0 +1,6 @@
+batch_id,batch_type,profiles_in_batch,correlation_r,drift_detected,threshold,recommendation
+batch_1_B001_B050,natural,50,1.0,N,0.7,Stable; continue normal monitoring.
+batch_2_B051_B100,natural,50,0.9425,N,0.7,Stable; continue normal monitoring.
+batch_3_B101_B150,natural,50,0.9467,N,0.7,Stable; continue normal monitoring.
+batch_4_B151_B200,natural,50,0.9046,N,0.7,Stable; continue normal monitoring.
+stress_test_batch_4_shifted_credit_profile,synthetic_stress_test,50,0.3905,Y,0.7,Stress-test drift detected; recalibration trigger behaves as expected.

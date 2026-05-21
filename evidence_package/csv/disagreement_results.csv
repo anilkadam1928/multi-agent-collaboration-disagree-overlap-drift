@@ -1,0 +1,604 @@
+borrower_id,kaggle_truth_label,agent_name,precommit_decision,precommit_confidence,precommit_reason,precommit_parse_mode,round1_decision,round1_confidence,round1_reason,round1_parse_mode,round2_decision,round2_confidence,round2_reason,round2_parse_mode,final_round_used,final_decision,final_confidence,final_reason,borda_winner,borda_scores,consensagent_winner,consensagent_scores,sycophancy_flagged,sycophancy_cosine_sim,sycophancy_similar_to,disagreement_exists
+B001,good,RouterManager,approve,high,one short,repaired,approve,high,one short sentence 3. **Analyze Raw Data/Input:** *,repaired,approve,high,one short sentence 3. **Analyze Raw Data/Input:** *,repaired,round1,approve,high,one short sentence 3. **Analyze Raw Data/Input:** *,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B001,good,IncomeAgent,approve,high,one short sentence 3. **Analyze the Raw Data,repaired,approve,high,"one short sentence 3. **Analyze the Raw Response Content:** The raw response is incomplete (it ends with """,repaired,approve,high,"one short sentence 3. **Analyze the Raw Response Content:** The raw response is incomplete (it ends with """,repaired,round1,approve,high,"one short sentence 3. **Analyze the Raw Response Content:** The raw response is incomplete (it ends with """,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B001,good,FraudAgent,approve,high,"one short sentence * Constraints: No markdown, no bullet points, no extra",repaired,approve,high,one short sentence 2. **Analyze the,repaired,approve,high,one short sentence 2. **Analyze the,repaired,round1,approve,high,one short sentence 2. **Analyze the,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B001,good,CreditAgent,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B001,good,ComplianceAgent,approve,high,one short sentence 3. **Analyze,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.576,WeakModelAgent,True
+B001,good,SummariserAgent,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final, crisp decision memo (Approve/Reject/Refer).
+2.  **Constraints Check:",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final, crisp decision memo (Approve/Reject/Refer).
+2.  **Constraints Check:",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final, crisp decision memo (Approve/Reject/Refer).
+2.  **Constraints Check:",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B001,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that exposes sycophancy and blind spots, acting *EXACTLY* in this specialis",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that exposes sycophancy and blind spots, acting *EXACTLY* in this specialis",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that exposes sycophancy and blind spots, acting *EXACTLY* in this specialis",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.114, ""refer"": 0.329, ""reject"": 0.6}",False,0.0,,True
+B002,bad,RouterManager,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 2. **Analyze the Raw Data/Context:** * Role: Router,repaired,approve,high,one short sentence 2. **Analyze the Raw Data/Context:** * Role: Router,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Data/Context:** * Role: Router,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,IncomeAgent,approve,high,one short sentence 3. **Analyze the Raw Data/Context,repaired,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3. **Analyze the,repaired,round1,approve,high,one short sentence 3. **Analyze the,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,FraudAgent,reject,medium,"Thinking Process:
+
+1.  **Role Confirmation:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured data.
+2.",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured data (",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured data (",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured data (",approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,CreditAgent,approve,high,one short sentence 2. **Analyze the Raw Data/Context:**,repaired,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3. **Analyze the,repaired,round1,approve,high,one short sentence 3. **Analyze the,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,ComplianceAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,SummariserAgent,approve,high,one short sentence 2. **Analyze the Rules:** *,repaired,approve,high,one short sentence 3. **Analyze the Raw Response/Input,repaired,approve,high,one short sentence 3. **Analyze the Raw Response/Input,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Response/Input,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",False,0.0,,True
+B002,bad,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,approve,high,one short,repaired,approve,high,one short,repaired,round1,approve,high,one short,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.143, ""refer"": 0.0, ""reject"": 0.629}",True,0.968,IncomeAgent,True
+B003,good,RouterManager,approve,high,one short sentence 3. **Analyze,repaired,approve,high,The borrower has a stable profile and purpose for the loan.,repaired,approve,high,The borrower has a stable profile and purpose for the loan.,repaired,round1,approve,high,The borrower has a stable profile and purpose for the loan.,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,IncomeAgent,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,round1,approve,high,one short sentence 3. **,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,FraudAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3. **Rules Check (Implicit):** The raw text is,repaired,approve,high,one short sentence 3. **Rules Check (Implicit):** The raw text is,repaired,round1,approve,high,one short sentence 3. **Rules Check (Implicit):** The raw text is,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,CreditAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3. **Rules Check:**,repaired,approve,high,one short sentence 3. **Rules Check:**,repaired,round1,approve,high,one short sentence 3. **Rules Check:**,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,ComplianceAgent,approve,high,one short sentence,repaired,approve,high,one short sentence Constraints/Rules for content generation (based on the raw input): - If clearly risky → Reject - If clearly safe → Approve,repaired,approve,high,one short sentence Constraints/Rules for content generation (based on the raw input): - If clearly risky → Reject - If clearly safe → Approve,repaired,round1,approve,high,one short sentence Constraints/Rules for content generation (based on the raw input): - If clearly risky → Reject - If clearly safe → Approve,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,SummariserAgent,approve,high,The borrower profile is stable and the purpose (education) suggests a clear financial goal.,repaired,approve,high,"one short sentence 2. **Analyze the Raw Content:** The raw content is an internal ""Thinking Process"" for",repaired,approve,high,"one short sentence 2. **Analyze the Raw Content:** The raw content is an internal ""Thinking Process"" for",repaired,round1,approve,high,"one short sentence 2. **Analyze the Raw Content:** The raw content is an internal ""Thinking Process"" for",approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B003,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy and blind spots. I must act *EXACTLY* in this speciali",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy and blind spots. I must act *EXACTLY* in this speciali",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy and blind spots. I must act *EXACTLY* in this speciali",approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.171, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B004,good,RouterManager,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Router-Manager. My goal is to route the loan application through the right review sequence, keep drift low, and coordinate the final decision",heuristic,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B004,good,IncomeAgent,approve,high,one short sentence,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based ONLY on str",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based ONLY on str",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based ONLY on str",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.714,CreditAgent,True
+B004,good,FraudAgent,approve,high,one short sentence 2. **Analyze the Input/Context (,repaired,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,round1,approve,high,one short sentence 3. **,refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B004,good,CreditAgent,approve,high,one short sentence 3. **Analyze the Raw Data,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured borrower profi",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured borrower profi",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured borrower profi",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.714,IncomeAgent,True
+B004,good,ComplianceAgent,approve,high,one short sentence 3. **Analyze the Raw Response/Input,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act EXACTLY in",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act EXACTLY in",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act EXACTLY in",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.709,IncomeAgent,True
+B004,good,SummariserAgent,approve,high,The borrower profile is stable and the loan purpose is manageable.,repaired,approve,high,The borrower profile is generally stable with no immediate red flags.,repaired,approve,high,The borrower profile is generally stable with no immediate red flags.,repaired,round1,approve,high,The borrower profile is generally stable with no immediate red flags.,refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B004,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B005,bad,RouterManager,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Router-Manager. My goal is to route the loan application through a decision path (Approve/Reject/Refer) based *only* on structured data, main",heuristic,approve,high,"one short sentence 2. **Analyze the Raw Input/Context:** The provided ""Raw response""",repaired,approve,high,"one short sentence 2. **Analyze the Raw Input/Context:** The provided ""Raw response""",repaired,round1,approve,high,"one short sentence 2. **Analyze the Raw Input/Context:** The provided ""Raw response""",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",True,0.856,CreditAgent,True
+B005,bad,IncomeAgent,approve,high,one short sentence 3. **Analyze,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the IncomeAgent. My goal is to verify income documents (though none exist) and judge the stability of earnings, flagging anomalies early, *using",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the IncomeAgent. My goal is to verify income documents (though none exist) and judge the stability of earnings, flagging anomalies early, *using",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the IncomeAgent. My goal is to verify income documents (though none exist) and judge the stability of earnings, flagging anomalies early, *using",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.644,ComplianceAgent,True
+B005,bad,FraudAgent,approve,high,one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   On",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   On",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   On",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.187,SummariserAgent,True
+B005,bad,CreditAgent,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.0,,True
+B005,bad,ComplianceAgent,approve,high,one short sentence 3.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act as a specia",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act as a specia",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act as a specia",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.644,IncomeAgent,True
+B005,bad,SummariserAgent,reject,high,The lack of external financial documentation makes assessing creditworthiness too risky.,repaired,reject,high,"The borrower has limited savings and checking accounts, indicating poor financial stability.",repaired,reject,high,"The borrower has limited savings and checking accounts, indicating poor financial stability.",repaired,round1,reject,high,"The borrower has limited savings and checking accounts, indicating poor financial stability.",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.0,,True
+B005,bad,WeakModelAgent,reject,high,"The agent's role requires exposing blind spots, which is inherently risky for decision-making.",repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* i",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* i",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* i",refer,"{""approve"": 7, ""refer"": 10, ""reject"": 4}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.829}",False,0.617,IncomeAgent,True
+B006,good,RouterManager,approve,high,one short sentence 2. **Analyze the Raw Content:** The raw content is,repaired,approve,high,one short sentence The raw response is incomplete (it stops at step 3). I must infer the decision based on the provided data and general lending,repaired,approve,high,one short sentence The raw response is incomplete (it stops at step 3). I must infer the decision based on the provided data and general lending,repaired,round1,approve,high,one short sentence The raw response is incomplete (it stops at step 3). I must infer the decision based on the provided data and general lending,approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,IncomeAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as an Income Agent, specializing in judging repayment capacity based *only* on structured proxy fields from a German Credit research data",heuristic,approve,high,one short sentence 2. **Analyze the Raw Input:** The raw input,repaired,approve,high,one short sentence 2. **Analyze the Raw Input:** The raw input,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Input:** The raw input,approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,FraudAgent,approve,high,one short sentence 3. **,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using ONLY the provided structured fiel",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using ONLY the provided structured fiel",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using ONLY the provided structured fiel",approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,CreditAgent,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,ComplianceAgent,approve,medium,"Thinking Process:
+
+1.  **Role Check:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (though limited by dataset constraints), and regulatory readiness based *onl",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness based *only* on the structured dataset fields pr",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness based *only* on the structured dataset fields pr",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness based *only* on the structured dataset fields pr",approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,SummariserAgent,approve,high,The borrower profile is stable and the purpose (education) suggests a clear financial goal.,repaired,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,round1,approve,high,one short sentence 3. **,approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B006,good,WeakModelAgent,approve,high,one short,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that helps expose sy",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that helps expose sy",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that helps expose sy",approve,"{""approve"": 11, ""refer"": 8, ""reject"": 2}",approve,"{""approve"": 1.063, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B007,good,RouterManager,approve,high,one short sentence,repaired,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,IncomeAgent,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,FraudAgent,approve,high,one short sentence 3. **Analyze,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act strictly within this specia",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act strictly within this specia",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act strictly within this specia",approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,CreditAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as a Credit Agent specializing in credit score analysis and repayment capacity, using ONLY the provided structured data.
+2.  **Data Revie",heuristic,approve,high,one short sentence 3. **Analyze the Raw Data/Context (The,repaired,approve,high,one short sentence 3. **Analyze the Raw Data/Context (The,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Data/Context (The,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,ComplianceAgent,approve,high,one short sentence 3. **Analyze the Raw Response Content:**,repaired,approve,high,The borrower profile is stable and the purpose of the loan is low risk.,repaired,approve,high,The borrower profile is stable and the purpose of the loan is low risk.,repaired,round1,approve,high,The borrower profile is stable and the purpose of the loan is low risk.,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,SummariserAgent,approve,high,The borrower profile is stable and the loan purpose is manageable.,repaired,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in this speci",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in this speci",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in this speci",approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",False,0.0,,True
+B007,good,WeakModelAgent,reject,high,"The prompt requires adopting a specialist persona that is explicitly designed to expose flaws and limitations, which constitutes an inherent risk of bias or incomplete analysis.",repaired,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 12, ""refer"": 7, ""reject"": 2}",approve,"{""approve"": 1.01, ""refer"": 0.0, ""reject"": 0.6}",True,0.92,IncomeAgent,True
+B008,good,RouterManager,approve,high,The applicant presents a stable profile with moderate financial history and clear purpose.,repaired,approve,high,The borrower's profile is generally stable with moderate checking accounts and sufficient credit amount for the purpose.,repaired,approve,high,The borrower's profile is generally stable with moderate checking accounts and sufficient credit amount for the purpose.,repaired,round1,approve,high,The borrower's profile is generally stable with moderate checking accounts and sufficient credit amount for the purpose.,refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.0,,True
+B008,good,IncomeAgent,approve,high,one short,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based *only* on structured",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based *only* on structured",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (none provided), judge stability of earnings, and flag anomalies early, based *only* on structured",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.634,ComplianceAgent,True
+B008,good,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.0,,True
+B008,good,CreditAgent,approve,high,one short sentence 3. **Analyze the,repaired,reject,high,"Conflicting specialist opinions, particularly from the WeakModelAgent, suggest caution.",repaired,reject,high,"Conflicting specialist opinions, particularly from the WeakModelAgent, suggest caution.",repaired,round1,reject,high,"Conflicting specialist opinions, particularly from the WeakModelAgent, suggest caution.",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.0,,True
+B008,good,ComplianceAgent,approve,high,one short sentence 3,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Input Data:",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Input Data:",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Input Data:",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.634,IncomeAgent,True
+B008,good,SummariserAgent,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize all agent inputs into a final recommendation (Approve/Reject/Refer) based *only* on the structured",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize all agent inputs into a final recommendation (Approve/Reject/Refer) based *only* on the structured",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize all agent inputs into a final recommendation (Approve/Reject/Refer) based *only* on the structured",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.0,,True
+B008,good,WeakModelAgent,reject,high,The model's self-aware role introduces unnecessary complexity and potential bias into the assessment process.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this",refer,"{""approve"": 9, ""refer"": 10, ""reject"": 2}",reject,"{""approve"": 0.952, ""refer"": 0.3, ""reject"": 1.0}",False,0.581,ComplianceAgent,True
+B009,good,RouterManager,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Router-Manager. My goal is to route the loan application through the right review sequence, keep drift low, and coordinate the final decision",heuristic,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",True,0.931,WeakModelAgent,True
+B009,good,IncomeAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as an Income Agent, judging repayment capacity based *only* on the provided structured dataset fields.
+2.  **Goal:** Verify income stabil",heuristic,approve,high,one short sentence 2. **Analyze the Raw Input/Context:** The raw input is,repaired,approve,high,one short sentence 2. **Analyze the Raw Input/Context:** The raw input is,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Input/Context:** The raw input is,approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.0,,True
+B009,good,FraudAgent,approve,high,one short sentence 3.,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   Da",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   Da",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records.
+2.  **Constraints & Data:**
+    *   Da",approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.039,CreditAgent,True
+B009,good,CreditAgent,approve,high,one short sentence,repaired,reject,high,"The applicant has multiple indicators of financial instability, including recent defaults and low income stability.",repaired,reject,high,"The applicant has multiple indicators of financial instability, including recent defaults and low income stability.",repaired,round1,reject,high,"The applicant has multiple indicators of financial instability, including recent defaults and low income stability.",approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.039,FraudAgent,True
+B009,good,ComplianceAgent,approve,high,one short sentence 3. **Analyze the Raw Response Content,repaired,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.0,,True
+B009,good,SummariserAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is,repaired,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is,approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.0,,True
+B009,good,WeakModelAgent,approve,medium,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,round1,approve,high,one short sentence 3. **,approve,"{""approve"": 10, ""refer"": 7, ""reject"": 4}",approve,"{""approve"": 1.114, ""refer"": 0.0, ""reject"": 0.8}",False,0.0,,True
+B010,bad,RouterManager,approve,high,one short sentence 2. **Analyze the Raw Input/Context,repaired,approve,high,The borrower appears stable with ownership and moderate checking funds.,repaired,approve,high,The borrower appears stable with ownership and moderate checking funds.,repaired,round1,approve,high,The borrower appears stable with ownership and moderate checking funds.,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B010,bad,IncomeAgent,approve,high,"one short sentence * Rules: No markdown, no bullet points, no extra",repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge the stability of earnings based *only* on the structured bo",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge the stability of earnings based *only* on the structured bo",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge the stability of earnings based *only* on the structured bo",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.593,ComplianceAgent,True
+B010,bad,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records, using ONLY the provided struc",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records, using ONLY the provided struc",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records, using ONLY the provided struc",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B010,bad,CreditAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B010,bad,ComplianceAgent,approve,high,one short sentence,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Focus:**",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Focus:**",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Focus:**",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.593,IncomeAgent,True
+B010,bad,SummariserAgent,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a final recommendation (Approve/Reject/Refer) based *only* on the struct",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a final recommendation (Approve/Reject/Refer) based *only* on the struct",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a final recommendation (Approve/Reject/Refer) based *only* on the struct",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B010,bad,WeakModelAgent,reject,high,The model cannot provide the necessary specialized analysis for German credit research.,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 0.986, ""refer"": 0.3, ""reject"": 0.6}",True,0.952,CreditAgent,True
+B011,bad,RouterManager,approve,high,"one short sentence * Rules: No markdown, no bullet points, no",repaired,approve,high,one short sentence 2. **Analyze the Rules:** *,repaired,approve,high,one short sentence 2. **Analyze the Rules:** *,repaired,round1,approve,high,one short sentence 2. **Analyze the Rules:** *,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B011,bad,IncomeAgent,approve,high,one short,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B011,bad,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,approve,high,one short sentence 3. **Analyze the Raw Response Content (The decision logic,repaired,approve,high,one short sentence 3. **Analyze the Raw Response Content (The decision logic,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Response Content (The decision logic,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B011,bad,CreditAgent,approve,medium,"Thinking Process:
+
+1.  **Role Confirmation:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the provided structured dataset f",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data.
+2.  **Review",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data.
+2.  **Review",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data.
+2.  **Review",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.618,WeakModelAgent,True
+B011,bad,ComplianceAgent,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B011,bad,SummariserAgent,reject,high,"The analysis indicates significant, unmitigated risks in the borrower profile data.",repaired,approve,high,The borrower is young and has a moderate checking account balance.,repaired,approve,high,The borrower is young and has a moderate checking account balance.,repaired,round1,approve,high,The borrower is young and has a moderate checking account balance.,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.373,RouterManager,True
+B011,bad,WeakModelAgent,reject,high,The model's self-aware role introduces unnecessary complexity and potential bias into the assessment process.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this sp",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this sp",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the WeakModelAgent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* in this sp",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.618,CreditAgent,True
+B012,bad,RouterManager,approve,high,one short sentence 3. **Analyze,repaired,approve,high,The applicant's profile is generally stable enough for approval given the limited data and purpose.,repaired,approve,high,The applicant's profile is generally stable enough for approval given the limited data and purpose.,repaired,round1,approve,high,The applicant's profile is generally stable enough for approval given the limited data and purpose.,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.0,,True
+B012,bad,IncomeAgent,refer,low,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as an Income Agent, judging repayment capacity based *only* on the provided structured dataset fields.
+2.  **Goal:** Verify income stabil",heuristic,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.755,FraudAgent,True
+B012,bad,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,approve,high,"one short sentence Constraints/Rules: - No markdown, no bullet points, no extra lines. - The decision must be based on the provided",repaired,approve,high,"one short sentence Constraints/Rules: - No markdown, no bullet points, no extra lines. - The decision must be based on the provided",repaired,round1,approve,high,"one short sentence Constraints/Rules: - No markdown, no bullet points, no extra lines. - The decision must be based on the provided",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.0,,True
+B012,bad,CreditAgent,approve,high,one short sentence 3,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured dataset fields provided",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured dataset fields provided",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the structured dataset fields provided",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.58,WeakModelAgent,True
+B012,bad,ComplianceAgent,approve,medium,"Thinking Process:
+
+1.  **Role Check:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (though limited by dataset constraints), and regulatory readiness based *onl",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Analyze Constraints/Data:",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Analyze Constraints/Data:",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Analyze Constraints/Data:",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.143,SummariserAgent,True
+B012,bad,SummariserAgent,reject,high,The lack of external financial documentation makes assessing creditworthiness too risky.,repaired,reject,high,"The borrower's profile indicates several financial risks, including low savings and young age.",repaired,reject,high,"The borrower's profile indicates several financial risks, including low savings and young age.",repaired,round1,reject,high,"The borrower's profile indicates several financial risks, including low savings and young age.",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.0,,True
+B012,bad,WeakModelAgent,reject,high,The request requires analysis of data types or external context that was not provided in the raw input.,repaired,refer,low,"Thinking Process:
+
+1.  **Role Adherence:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that exposes sycop",heuristic,refer,low,"Thinking Process:
+
+1.  **Role Adherence:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that exposes sycop",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Role Adherence:** I must act as the WeakModelAgent, specializing in basic heuristic risk screening. My goal is to provide a lower-capability comparison view that exposes sycop",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.829}",False,0.58,CreditAgent,True
+B013,good,RouterManager,approve,high,one short sentence 3. **,repaired,approve,high,The borrower profile is generally stable and the request is for a relatively small amount over a manageable term.,repaired,approve,high,The borrower profile is generally stable and the request is for a relatively small amount over a manageable term.,repaired,round1,approve,high,The borrower profile is generally stable and the request is for a relatively small amount over a manageable term.,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B013,good,IncomeAgent,approve,high,one short sentence 3. **Analyze the,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents, judge stability of earnings, and flag anomalies early.
+2.  **Constraints/Data:**
+    *   Borrower",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents, judge stability of earnings, and flag anomalies early.
+2.  **Constraints/Data:**
+    *   Borrower",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents, judge stability of earnings, and flag anomalies early.
+2.  **Constraints/Data:**
+    *   Borrower",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",False,0.619,ComplianceAgent,True
+B013,good,FraudAgent,reject,medium,"Thinking Process:
+
+1.  **Role Confirmation:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured data.
+2.",heuristic,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3. **Analyze the,repaired,round1,approve,high,one short sentence 3. **Analyze the,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",True,0.938,CreditAgent,True
+B013,good,CreditAgent,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3,repaired,round1,approve,high,one short sentence 3,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B013,good,ComplianceAgent,approve,high,one short sentence 3. **Analyze the Raw Data/Context (The,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data Review",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data Review",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data Review",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",False,0.619,IncomeAgent,True
+B013,good,SummariserAgent,reject,high,"The prompt outlines strict formatting rules and constraints that are impossible to follow while also requiring a decision based on external, unprovided German Credit research data.",repaired,approve,high,The borrower is young and has stable housing ownership.,repaired,approve,high,The borrower is young and has stable housing ownership.,repaired,round1,approve,high,The borrower is young and has stable housing ownership.,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",False,0.603,RouterManager,True
+B013,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,approve,high,"one short sentence 3. **Analyze Raw Response Content (The actual decision logic is missing, but I must infer",repaired,approve,high,"one short sentence 3. **Analyze Raw Response Content (The actual decision logic is missing, but I must infer",repaired,round1,approve,high,"one short sentence 3. **Analyze Raw Response Content (The actual decision logic is missing, but I must infer",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.0}",True,0.883,FraudAgent,True
+B014,bad,RouterManager,approve,high,one short sentence,repaired,approve,high,one short sentence 3. **Analyze the,repaired,approve,high,one short sentence 3. **Analyze the,repaired,round1,approve,high,one short sentence 3. **Analyze the,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.0,,True
+B014,bad,IncomeAgent,approve,high,one short sentence 3. **Analyze the Raw Data/Thinking Process,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act *EXACTLY",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act *EXACTLY",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act *EXACTLY",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.664,WeakModelAgent,True
+B014,bad,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act *EXACTLY* in this specialis",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act *EXACTLY* in this specialis",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records. I must act *EXACTLY* in this specialis",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.0,,True
+B014,bad,CreditAgent,approve,medium,"Thinking Process:
+
+1.  **Role Confirmation:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data.
+2.  **Data Revie",heuristic,approve,high,one short sentence 3. **Analyze the Raw,repaired,approve,high,one short sentence 3. **Analyze the Raw,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.0,,True
+B014,bad,ComplianceAgent,approve,medium,"Thinking Process:
+
+1.  **Role Check:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (limited by available data), and regulatory readiness based *only* on struct",heuristic,reject,high,Insufficient documentation prevents a full risk assessment.,repaired,reject,high,Insufficient documentation prevents a full risk assessment.,repaired,round1,reject,high,Insufficient documentation prevents a full risk assessment.,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.0,,True
+B014,bad,SummariserAgent,reject,high,The lack of external financial documentation makes assessing creditworthiness too risky.,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",True,0.969,CreditAgent,True
+B014,bad,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* within t",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* within t",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY* within t",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.329, ""reject"": 0.8}",False,0.0,,True
+B015,good,RouterManager,approve,high,one short,repaired,approve,high,one short sentence 2. **Analyze the Rules:** * If clearly risky → Reject,repaired,approve,high,one short sentence 2. **Analyze the Rules:** * If clearly risky → Reject,repaired,round1,approve,high,one short sentence 2. **Analyze the Rules:** * If clearly risky → Reject,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B015,good,IncomeAgent,approve,high,one short sentence,repaired,approve,high,one short sentence 3.,repaired,approve,high,one short sentence 3.,repaired,round1,approve,high,one short sentence 3.,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B015,good,FraudAgent,approve,high,"one short sentence 2. **Analyze the Input (Raw Response):** The raw response is a ""Thinking",repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B015,good,CreditAgent,approve,high,one short sentence 3. **Analyze the,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data. I must act a",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data. I must act a",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on structured data. I must act a",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.599,ComplianceAgent,True
+B015,good,ComplianceAgent,approve,high,one short sentence 3.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (though limited by dataset constraints), and regulatory readiness",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (though limited by dataset constraints), and regulatory readiness",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness (though limited by dataset constraints), and regulatory readiness",approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.599,CreditAgent,True
+B015,good,SummariserAgent,approve,high,The provided structured data suggests a stable financial profile with no immediate red flags.,repaired,approve,high,one short sentence 3. **Analyze the Raw Response,repaired,approve,high,one short sentence 3. **Analyze the Raw Response,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Response,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",False,0.0,,True
+B015,good,WeakModelAgent,reject,high,The model's self-aware role introduces unnecessary complexity and potential bias into the assessment process.,repaired,approve,high,one short sentence 3. **Rules Check:** * If clearly risky →,repaired,approve,high,one short sentence 3. **Rules Check:** * If clearly risky →,repaired,round1,approve,high,one short sentence 3. **Rules Check:** * If clearly risky →,approve,"{""approve"": 12, ""refer"": 9, ""reject"": 0}",approve,"{""approve"": 1.114, ""refer"": 0.3, ""reject"": 0.0}",True,0.896,FraudAgent,True
+B016,bad,RouterManager,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Router-Manager. My goal is to route the loan application through the right review sequence, keep drift low, and coordinate the final decision",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** Router-Manager. My goal is to orchestrate the final decision path, keep drift low, and route the application based on all agent inputs while adhering strictly",heuristic,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** Router-Manager. My goal is to orchestrate the final decision path, keep drift low, and route the application based on all agent inputs while adhering strictly",heuristic,round1,approve,medium,"Thinking Process:
+
+1.  **Analyze Role:** Router-Manager. My goal is to orchestrate the final decision path, keep drift low, and route the application based on all agent inputs while adhering strictly",approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.323,CreditAgent,True
+B016,bad,IncomeAgent,approve,high,one short sentence 3. **Analyze the Raw Data/Thinking Process:**,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B016,bad,FraudAgent,approve,high,The provided structured data points suggest a stable and low-risk financial profile.,repaired,approve,high,one short sentence 3. **,repaired,approve,high,one short sentence 3. **,repaired,round1,approve,high,one short sentence 3. **,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B016,bad,CreditAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as a Credit Agent specializing in credit score analysis and repayment capacity, using *only* the provided structured data.
+2.  **Goal:**",heuristic,approve,high,one short sentence 3. **Analyze the Raw Input/Context:** The raw input is incomplete,repaired,approve,high,one short sentence 3. **Analyze the Raw Input/Context:** The raw input is incomplete,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Input/Context:** The raw input is incomplete,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B016,bad,ComplianceAgent,approve,high,one short sentence,repaired,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is an,repaired,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is an,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Response:** The raw response is an,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B016,bad,SummariserAgent,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,approve,high,one,repaired,approve,high,one,repaired,round1,approve,high,one,approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",True,0.957,FraudAgent,True
+B016,bad,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view that helps expose sycophancy and blind spots. I must act *EXACTLY*",approve,"{""approve"": 13, ""refer"": 8, ""reject"": 0}",approve,"{""approve"": 1.048, ""refer"": 0.329, ""reject"": 0.0}",False,0.0,,True
+B017,good,RouterManager,approve,high,one short sentence 2. **Analyze the Raw Response Content,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent (WMA). My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to m",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent (WMA). My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to m",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent (WMA). My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to m",approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.0,,True
+B017,good,IncomeAgent,approve,high,one short sentence 3,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to my inst",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to my inst",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXACTLY* according to my inst",approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.321,SummariserAgent,True
+B017,good,FraudAgent,approve,high,one short sentence,repaired,approve,high,one short sentence 2. **Analyze,repaired,approve,high,one short sentence 2. **Analyze,repaired,round1,approve,high,one short sentence 2. **Analyze,approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.0,,True
+B017,good,CreditAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3. **Analyze the Raw Response Content,repaired,approve,high,one short sentence 3. **Analyze the Raw Response Content,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Response Content,approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.0,,True
+B017,good,ComplianceAgent,approve,high,one short sentence,repaired,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3,repaired,round1,approve,high,one short sentence 3,approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.0,,True
+B017,good,SummariserAgent,approve,high,one short sentence 3,repaired,reject,high,The prompt contains conflicting instructions and meta-analysis steps that violate the required output format.,repaired,reject,high,The prompt contains conflicting instructions and meta-analysis steps that violate the required output format.,repaired,round1,reject,high,The prompt contains conflicting instructions and meta-analysis steps that violate the required output format.,approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",False,0.321,IncomeAgent,True
+B017,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,approve,high,one short sentence 3. **Analyze the Raw Input/Context,repaired,approve,high,one short sentence 3. **Analyze the Raw Input/Context,repaired,round1,approve,high,one short sentence 3. **Analyze the Raw Input/Context,approve,"{""approve"": 9, ""refer"": 8, ""reject"": 4}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.8}",True,0.893,ComplianceAgent,True
+B018,good,RouterManager,approve,high,one short sentence 3. **Analyze,repaired,approve,high,"The borrower is young, owns housing, and has a stable profile.",repaired,approve,high,"The borrower is young, owns housing, and has a stable profile.",repaired,round1,approve,high,"The borrower is young, owns housing, and has a stable profile.",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B018,good,IncomeAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as an Income Agent, judging repayment capacity based *only* on the provided structured dataset fields.
+2.  **Goal:** Verify income stabil",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income stability and judge repayment capacity based *only* on structured proxy fields from a German Credit research",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income stability and judge repayment capacity based *only* on structured proxy fields from a German Credit research",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income stability and judge repayment capacity based *only* on structured proxy fields from a German Credit research",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.655,ComplianceAgent,True
+B018,good,FraudAgent,approve,high,one short sentence 3. **,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured fields.
+2.  **R",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured fields.
+2.  **R",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* structured fields.
+2.  **R",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.665,SummariserAgent,True
+B018,good,CreditAgent,approve,high,one short sentence,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B018,good,ComplianceAgent,approve,high,one short sentence 3,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.655,IncomeAgent,True
+B018,good,SummariserAgent,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final decision memo (Approve/Reject/Refer).
+2.  **Constraints & Data:**",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final decision memo (Approve/Reject/Refer).
+2.  **Constraints & Data:**",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Summariser Agent. My goal is to synthesize all multi-agent findings into a final decision memo (Approve/Reject/Refer).
+2.  **Constraints & Data:**",refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",False,0.665,FraudAgent,True
+B018,good,WeakModelAgent,refer,low,"Thinking Process: Weak Model Agent
+
+1.  **Analyze Role and Goal:** I am the Weak Model Agent. My goal is to provide a lower-capability comparison view, exposing sycophancy/blind spots. I must act *EXA",heuristic,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3,repaired,round1,approve,high,one short sentence 3,refer,"{""approve"": 8, ""refer"": 9, ""reject"": 4}",approve,"{""approve"": 1.057, ""refer"": 0.3, ""reject"": 0.6}",True,0.897,CreditAgent,True
+B019,bad,RouterManager,approve,high,one short,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Router-Manager. My goal is to route the application, keep drift low, and coordinate the final decision path. I must act as a specialist coordinating m",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.406,ComplianceAgent,True
+B019,bad,IncomeAgent,approve,medium,"Thinking Process:
+
+1.  **Role Adherence:** I must act strictly as an Income Agent, specializing in judging repayment capacity solely based on structured proxy financial fields from a German Credit res",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (or proxies) and judge stability of earnings/repayment capacity based *only* on the structured pro",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (or proxies) and judge stability of earnings/repayment capacity based *only* on the structured pro",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze Role:** I am the Income Agent. My goal is to verify income documents (or proxies) and judge stability of earnings/repayment capacity based *only* on the structured pro",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B019,bad,FraudAgent,approve,high,one short sentence 2. **Analyze the Raw Response/Context,repaired,approve,high,one short sentence 2. **Analyze the Raw,repaired,approve,high,one short sentence 2. **Analyze the Raw,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B019,bad,CreditAgent,approve,high,one short sentence 3,repaired,approve,high,one short sentence 3. **Analyze,repaired,approve,high,one short sentence 3. **Analyze,repaired,round1,approve,high,one short sentence 3. **Analyze,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B019,bad,ComplianceAgent,approve,high,one short sentence 3.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval.
+2.  **Constraints & Data:**",approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.406,RouterManager,True
+B019,bad,SummariserAgent,approve,medium,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo (Approve/Reject/Refer) based *only* on the provide",heuristic,approve,high,The available data points are sufficient and do not indicate any clear risk factors.,repaired,approve,high,The available data points are sufficient and do not indicate any clear risk factors.,repaired,round1,approve,high,The available data points are sufficient and do not indicate any clear risk factors.,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B019,bad,WeakModelAgent,reject,high,The model's self-aware role introduces unnecessary complexity and potential bias into the assessment process.,repaired,approve,high,one short sentence,repaired,approve,high,one short sentence,repaired,round1,approve,high,one short sentence,approve,"{""approve"": 10, ""refer"": 9, ""reject"": 2}",approve,"{""approve"": 1.086, ""refer"": 0.3, ""reject"": 0.6}",True,0.963,CreditAgent,True
+B020,good,RouterManager,approve,high,one,repaired,approve,high,one,repaired,approve,high,one,repaired,round1,approve,high,one,refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B020,good,IncomeAgent,approve,high,one short sentence 2. **Analyze the Raw Data/Context:** The input is a structured data,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Income Agent. My goal is to verify income documents (though none exist) and judge stability of earnings, flagging anomalies early. I must act",refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.771,ComplianceAgent,True
+B020,good,FraudAgent,approve,high,one short sentence 3. **Analyze the Raw Response Content,repaired,reject,medium,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* the provided",heuristic,reject,medium,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* the provided",heuristic,round1,reject,medium,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Fraud Agent. My goal is to detect suspicious patterns, forged evidence, identity mismatch, or tampered records using *only* the provided",refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.0,,True
+B020,good,CreditAgent,approve,high,one short sentence (,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the provided structured datas",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the provided structured datas",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Credit Agent. My goal is to assess repayment ability, credit behavior, and overall lending risk based *only* on the provided structured datas",refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.624,ComplianceAgent,True
+B020,good,ComplianceAgent,approve,high,one short sentence 2. **Analyze the Raw Response Content:** The raw response,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act *EXACTL",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act *EXACTL",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze the Role and Goal:** I am the Compliance Agent. My goal is to check internal policy fit, KYC completeness, and regulatory readiness before approval. I must act *EXACTL",refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.771,IncomeAgent,True
+B020,good,SummariserAgent,approve,high,The borrower profile is stable and the loan purpose is low risk.,repaired,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in t",heuristic,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in t",heuristic,round1,refer,low,"Thinking Process:
+
+1.  **Analyze Role and Goal:** I am the Summariser Agent. My goal is to synthesize multi-agent findings into a crisp decision memo without repeating noise. I must act *EXACTLY* in t",refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.712,ComplianceAgent,True
+B020,good,WeakModelAgent,reject,high,"The prompt requires adopting a specialist persona that is explicitly designed to expose flaws and limitations, which constitutes an inherent risk of bias or incomplete analysis.",repaired,approve,high,one short sentence 2. **Analyze the Raw Response Content:** The,repaired,approve,high,one short sentence 2. **Analyze the Raw Response Content:** The,repaired,round1,approve,high,one short sentence 2. **Analyze the Raw Response Content:** The,refer,"{""approve"": 8, ""refer"": 11, ""reject"": 2}",approve,"{""approve"": 1.029, ""refer"": 0.3, ""reject"": 0.6}",False,0.766,RouterManager,True

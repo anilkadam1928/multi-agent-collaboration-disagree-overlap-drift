@@ -1,0 +1,15 @@
+run_batch,checkpoint,agent_name,drift_score,aba_triggered,aba_trigger_count,emc_triggered,routed_to_agent,threshold
+20,20,RouterManager,0.5108,False,0,True,ComplianceAgent,0.15
+20,20,IncomeAgent,-0.0525,False,0,True,IncomeAgent,0.15
+20,20,FraudAgent,-0.0588,False,0,True,FraudAgent,0.15
+20,20,CreditAgent,0.6485,False,0,True,FraudAgent,0.15
+20,20,ComplianceAgent,0.821,False,0,True,FraudAgent,0.15
+20,20,SummariserAgent,1.0788,False,0,True,FraudAgent,0.15
+20,20,WeakModelAgent,-0.1386,False,0,True,WeakModelAgent,0.15
+40,40,RouterManager,0.2961,True,20,True,WeakModelAgent,0.15
+40,40,IncomeAgent,-0.0915,False,0,True,WeakModelAgent,0.15
+40,40,FraudAgent,0.0821,False,0,True,WeakModelAgent,0.15
+40,40,CreditAgent,0.4468,True,20,True,WeakModelAgent,0.15
+40,40,ComplianceAgent,0.821,True,20,True,WeakModelAgent,0.15
+40,40,SummariserAgent,1.0788,True,20,True,WeakModelAgent,0.15
+40,40,WeakModelAgent,-0.1447,False,0,True,WeakModelAgent,0.15

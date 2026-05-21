@@ -1,0 +1,12 @@
+claim_or_module,source_path,rows,evidence_type
+Baseline decision distribution and frozen 50-profile benchmark,data/baseline_results.csv,350,"Agent outputs, decisions, confidence flags, Kaggle labels"
+"Scenario 1 disagreement, Borda, CONSENSAGENT, sycophancy flags",results/disagreement_results.csv,140,"Pre-commit, round outputs, winners, similarity flags"
+"Scenario 2 overlap, TAP, LCE, leadership, redundancy index",data/overlap_results.csv,40,"Intent board, active leader, skipped agents, duplicate invocations"
+Scenario 3 drift without EMC,data/drift_no_emc.csv,14,KL-style drift score by agent/checkpoint
+Scenario 3 drift with EMC,data/drift_with_emc.csv,14,Post-memory-compaction drift score
+Scenario 3 ABA correction layer,data/drift_with_aba.csv,14,"ABA triggers, routed agents, threshold comparison"
+Scenario 4 causal chain,data/dual_results.csv,20,"Overlap-disagreement co-occurrence, resolution-induced invocations"
+Scenario 5 combined governance pass,data/combined_results.csv,20,"Combined source, final correctness, rewards"
+Three-level hierarchy governance,data/hierarchy_results.csv,50,"L3 votes, L2 managers, L1 final decision"
+Concept drift monitoring,data/concept_drift_log.csv,5,Pearson correlation against baseline applicant distribution
+200-profile robustness confirmation,robustness_200_clean/metrics_summary.csv,9,Accuracy and decision mix across saved 200-profile run

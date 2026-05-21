@@ -1,0 +1,9 @@
+group,checkpoint,borrowers_seen,mean_co_occurrence_intensity,mean_pre_call_drift_score,unknown_output_rate,aba_trigger_rate,group_kl_drift_score
+low_co_occurrence_intensity,5,1,0.6667,0.0,0.4286,0.0,1.241
+low_co_occurrence_intensity,10,2,0.6667,0.0,0.4286,0.0,1.241
+low_co_occurrence_intensity,15,4,0.6667,0.0,0.2857,0.0,1.0019
+low_co_occurrence_intensity,20,5,0.6667,0.0,0.3143,0.0,1.0424
+high_co_occurrence_intensity,5,4,1.3333,0.0,0.4643,0.0,1.3142
+high_co_occurrence_intensity,10,8,1.2917,0.0,0.4286,0.0,1.241
+high_co_occurrence_intensity,15,11,1.3636,0.0,0.4286,0.0,1.241
+high_co_occurrence_intensity,20,15,1.3111,0.0,0.4,0.0,1.1861

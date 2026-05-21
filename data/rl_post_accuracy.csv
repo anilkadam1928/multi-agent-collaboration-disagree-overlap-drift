@@ -1,0 +1,2 @@
+run_id,profiles_run,pre_rl_accuracy,combined_pre_rl_accuracy,post_rl_accuracy,delta_vs_baseline,delta_vs_combined,reward_step,final_weights_json,note
+week5_tuesday_rl_loop,20,0.25,0.6,0.6,0.35,0.0,0.05,"{""BaselineRouter"": 0.55, ""Borda"": 0.7999999999999998, ""ConsensAgent"": 1.1, ""OverlapControlled"": 1.2000000000000002, ""DriftRouter"": 1.2000000000000002}",RL adjusted policy weights using +1/-1 Kaggle feedback. The post-RL score is compared against both the frozen baseline and the pre-RL combined pipeline.

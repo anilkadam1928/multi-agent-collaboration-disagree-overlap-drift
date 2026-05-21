@@ -1,0 +1,15 @@
+mode,checkpoint,agent_name,drift_score
+no_emc,20,RouterManager,0.5108
+no_emc,20,IncomeAgent,1.3471
+no_emc,20,FraudAgent,1.7148
+no_emc,20,CreditAgent,0.734
+no_emc,20,ComplianceAgent,0.821
+no_emc,20,SummariserAgent,1.0788
+no_emc,20,WeakModelAgent,0.6407
+no_emc,40,RouterManager,0.5108
+no_emc,40,IncomeAgent,1.3471
+no_emc,40,FraudAgent,1.7148
+no_emc,40,CreditAgent,0.734
+no_emc,40,ComplianceAgent,0.821
+no_emc,40,SummariserAgent,1.0788
+no_emc,40,WeakModelAgent,0.6407

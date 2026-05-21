@@ -1,0 +1,3 @@
+architecture,profiles_run,disagreement_rate,drift_at_checkpoint_40,final_accuracy,risk_safe_rate,decision_mix,notes,drift_reduction_vs_2_level
+2-level RouterManager + Specialists,50,0.76,0.9782,0.48,0.6,"{""approve"": 30, ""refer"": 20}",Frozen Week 3 flat-router baseline on B001-B050.,
+3-level L1/L2/L3 Hierarchy,50,0.14,0.074,0.34,0.5,"{""refer"": 29, ""approve"": 21}",Borda aggregation at L2 and L1; L1 policy reset applied to high-drift agents.,0.9243

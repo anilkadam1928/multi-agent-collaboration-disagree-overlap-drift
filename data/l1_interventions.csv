@@ -1,0 +1,3 @@
+trigger_run,avg_drift_at_trigger,l1_threshold,intervention_triggered,agents_reset,post_reset_drift,reset_rule
+20,0.4727,0.2,True,"RouterManager,CreditAgent,ComplianceAgent,SummariserAgent",0.0643,Agents with abs(drift_score) > 0.15 are reset to anchor memory target 0.05.
+40,0.423,0.2,True,"RouterManager,CreditAgent,ComplianceAgent,SummariserAgent",0.074,Agents with abs(drift_score) > 0.15 are reset to anchor memory target 0.05.
