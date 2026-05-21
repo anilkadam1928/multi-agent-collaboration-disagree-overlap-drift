@@ -1,4 +1,5 @@
 claim_or_module,source_path,rows,evidence_type
+Public German Credit source dataset,evidence_package/csv/german_credit_data.csv,1000,"Public research dataset used as non-confidential borrower-review proxy; not HDFC/customer data"
 Baseline decision distribution and frozen 50-profile benchmark,data/baseline_results.csv,350,"Agent outputs, decisions, confidence flags, Kaggle labels"
 "Scenario 1 disagreement, Borda, CONSENSAGENT, sycophancy flags",results/disagreement_results.csv,140,"Pre-commit, round outputs, winners, similarity flags"
 "Scenario 2 overlap, TAP, LCE, leadership, redundancy index",data/overlap_results.csv,40,"Intent board, active leader, skipped agents, duplicate invocations"

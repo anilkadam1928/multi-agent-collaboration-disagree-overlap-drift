@@ -1,7 +1,7 @@
 # Reproducibility Notes
 
 ## Dataset
-The experiments use the public German Credit research dataset as a non-confidential proxy for borrower review. Borrower profiles are generated from structured fields such as age, job type, housing status, savings/checking status, credit amount, duration, and purpose.
+The experiments use the public German Credit research dataset as a non-confidential proxy for borrower review. A reviewer copy is included at `evidence_package/csv/german_credit_data.csv`, with the same source file also kept at the repository root as `german_credit_data.csv`. Borrower profiles are generated from structured fields such as age, job type, housing status, savings/checking status, credit amount, duration, and purpose.
 
 ## Local model stack
 The agent pipeline was run locally using CrewAI/Ollama-compatible agents. The code records the primary local model candidate as `google/gemma-4-e4b` with environment-variable overrides such as `OLLAMA_MODEL` and `OLLAMA_WEAK_MODEL` where applicable. The report therefore describes the system as a local LLM simulation rather than a cloud deployment.

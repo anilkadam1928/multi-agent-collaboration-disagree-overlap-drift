@@ -1,7 +1,11 @@
-# Evidence Package: Multi-Agent Credit-Risk Governance Simulation
+# Evidence Package: Multi Agent Collaboration
 
 This folder is the shareable evidence bundle for the final research report.
 It is designed to be reviewed from this public repository.
+
+Official project title: **Multi Agent Collaboration: When and Why Agents
+Disagree, Overlap or Drift**. The credit-risk workflow is the simulation setting
+used to study disagreement, overlap, and drift.
 
 ## How to read this package
 
@@ -13,6 +17,8 @@ It is designed to be reviewed from this public repository.
 ## Main evidence files
 
 - `baseline_results.csv`: frozen baseline agent decisions.
+- `german_credit_data.csv`: public German Credit research dataset used as the
+  non-confidential borrower-review proxy.
 - `disagreement_results.csv`: pre-commit, discussion, Borda, CONSENSAGENT, and sycophancy fields.
 - `overlap_results.csv`: TAP intent board, LCE leader, skipped agents, and redundancy index.
 - `drift_no_emc.csv`, `drift_with_emc.csv`, `drift_with_aba.csv`: KL-style drift comparisons.

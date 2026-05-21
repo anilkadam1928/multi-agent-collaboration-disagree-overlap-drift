@@ -1,4 +1,4 @@
-# Multi-Agent Credit-Risk Governance
+# Multi Agent Collaboration: When and Why Agents Disagree, Overlap or Drift
 
 This repository contains the shareable code and evidence package for a research
 simulation on multi-agent collaboration in a bank-style credit-risk workflow.
@@ -9,11 +9,17 @@ use the public German Credit research dataset as a non-confidential proxy for
 borrower review. No real HDFC customer records, KYC documents, salary slips,
 bank statements, or internal bank underwriting data are included.
 
+The bank-style credit-risk framing is the application setting for the official
+project topic: **Multi Agent Collaboration: When and Why Agents Disagree,
+Overlap or Drift**.
+
 ## What is included
 
 - Core simulation and analysis scripts for disagreement, overlap, drift,
   reward feedback, hierarchy, concept drift, and 200-profile robustness checks.
 - Public-data CSV outputs in `data/`, `results/`, and `robustness_200_clean/`.
+- The public German Credit dataset at `german_credit_data.csv` and a reviewer
+  copy at `evidence_package/csv/german_credit_data.csv`.
 - A curated `evidence_package/` with the CSVs, figures, evidence index, and
   reproducibility notes referenced by the final research report appendix.
 - `requirements.txt` from the local Python environment used during the project.
@@ -31,6 +37,10 @@ Start here when reviewing the report evidence:
 The evidence index maps report claims to the supporting CSV files and figures.
 The 200-profile robustness confirmation is provided as supporting simulation
 evidence, not as production validation.
+
+The source dataset is included in the evidence package for reviewer convenience.
+It is public German Credit research data and should not be interpreted as HDFC
+customer data or as private bank underwriting data.
 
 ## Reproducibility notes
 
