@@ -3,6 +3,9 @@
 This folder is the shareable evidence bundle for the final research report.
 It is designed to be reviewed from this public repository.
 
+Public repository link:
+https://github.com/anilkadam1928/multi-agent-collaboration-disagree-overlap-drift
+
 Official project title: **Multi Agent Collaboration: When and Why Agents
 Disagree, Overlap or Drift**. The credit-risk workflow is the simulation setting
 used to study disagreement, overlap, and drift.
