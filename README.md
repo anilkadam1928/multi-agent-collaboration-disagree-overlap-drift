@@ -3,6 +3,9 @@
 This repository contains the shareable code and evidence package for a research
 simulation on multi-agent collaboration in a bank-style credit-risk workflow.
 
+Public repository link:
+https://github.com/anilkadam1928/multi-agent-collaboration-disagree-overlap-drift
+
 The project studies when specialist agents disagree, duplicate work, or drift
 away from baseline behaviour during repeated borrower reviews. The experiments
 use the public German Credit research dataset as a non-confidential proxy for
